@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon",
-    "test": "jest"
+    "dev:debug": "nodemon --inspect",
+    "test": "jest --detectOpenHandles"
   },
   "dependencies": {
     "cors": "^2.8.5",
